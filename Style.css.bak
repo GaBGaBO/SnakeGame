@@ -1,0 +1,316 @@
+/*CSS Document*/
+*{
+   margin:0px;
+   padding:0px;
+   font-family:"opem Sans";
+}
+#header div ul li {
+	float:left;
+	list-style:none;
+	margin:20px;
+}
+#nav {
+	margin-left:35%;
+}
+#nav ul li a {
+	text-decoration: none;
+	color:#fff;
+	background-color:FF2C0F;
+	padding:10px 20px 10px 30px;
+	border-radius:5px;
+	transition:0.5s box-shadow;
+	
+	
+}
+#nav ul li a:hover{ 
+box-shadow:inset 0px 0px 5px 2px #000;
+}
+#logo {
+	padding-bottom:10px ;
+	position:absolute;
+	width:100%;
+	background-color:000;
+	z-index:-1;
+}
+#img img{
+	margin-top:47px;
+	width:100%;
+    height:120%;	
+}
+#active a{
+	border-bottom:2px solid blue;
+	
+}
+#nav ul ul{
+	position:absolute;
+	width:200px;
+	z-index:99;
+	margin-top:7px;
+
+}
+#nav ul ul li {
+	display:none;
+}
+
+#nav ul li:hover ul li
+{
+	display:block;
+} 
+
+#nav ul ul li a{
+	border-bottom:2px solid blue;
+	display:inline-block;
+	padding:0px;
+	width:160px;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px
+	
+	
+}
+#nav ul li li{
+   margin-top:3px;
+   margin-bottom;3px;
+}
+
+/* ჩვენ უნდა გამოვიძახოთ ეხლა მენიუ, მენიუს გამოძახება კი # საშუალებით ხდება */
+	/* ვუთითებთ მენიუს პოზიციას თუ სად გვინდა რომ გვიჩვენოს ;) */
+/*CyberCriminal*/
+#sub-menu{
+	position:absoulute;
+	margin-right:1400px; 
+}
+
+#sub-menu li{
+	list-style:none;
+}
+/* ამ კოდით ჩვენს მენიუს გავუქრობთ ხაზებს (none)*/
+#sub-menu a{
+	/* ვადიდებთ ტექსტს სიგრძეში და შემდეგ უკვე ვუთითებთ პოზიციებს */
+	 display:inline-block;
+	 width:200px;
+	 height:50pxl
+	 margin:5px;
+	 /* ტექსტი გამაოქვს შუაში (ჩარჩოს შუაში, მაგ: თუ იწყება თავიდან გამოვა ჩარჩოს შუა ნაწილში)*/
+	 text-align:center;
+	 /* ხაზის სიდიდეს ვზრდით უკვე სიმაღლეში */
+	 line-height:25px;
+	text-decoration:none;
+	/*ვუთითებთ ჩვენთვის  სასურველ ტექსტის ფერს */
+     background-color:black;
+     /* ვუთითებთ ჩვენთვის სასურველ ფერს */
+     color:red;	 
+}
+/* მარტივად რომ ვთქვათ ამ კოდის მეშვეობით ჩვენ როცა დავაწკაპებთ მითითებულ ინფორმაციას,
+ეგ ინფორმაცია რომ გაწითლდეს(აირჩეს) ან ნებისმიერი რაფერსაც მივუთითებთ */
+#sub-menu a:hover{
+	/*აქ უკვე ვუთითებთ როცა დავაწკააპებთ ინფრომაციას რა ფერით აღინიშნოს*/
+	background-color:white;
+	border-left:5px solid blue;
+}
+/* აქ უკვე ვიძახებთ ფოტოს და ვამუშავებთ*/
+#cyber-img {
+	position:absolute;
+	/* ამის საშუალებით ჩამოვიყვანთ ფოტოს ქვევით */
+	margin-top:150px;
+	margin-left:240px;
+}
+#cyber-img h2{
+	color:blue;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#cyber-img h3{
+	color:blue;
+	margin-top:10px;
+	/*ტექსტის ჩამოწევაა*/
+	margin-bottom:10px;
+}
+/*contact*/
+
+#info {
+	position:absolute;
+	margin-top:125px;
+	/* თუ დავწერთ მარცხენა გამოვა მარჯვნივ, თუ დავწერთ მარჯვნივ გამოვა მარცხნივ*/
+	margin-left:20px;
+}
+/*contact*/
+#text img{
+	margin-right:20px;
+}
+
+#text{
+	 position:absolute;
+	/*ტექსტის აწევა ჩამოწევა */
+	margin-top:140px;
+	margin-right:150px;
+	margin-left:-530px;
+	/*ტექსტის გაზრდა */
+	font-size:20px;
+}
+
+#text {
+	position:absolute;
+	margin-top:10px;
+		margin-left:-10px;
+
+}
+/*hacker*/
+#text p{
+	 position:absolute;
+	/*ტექსტის აწევა ჩამოწევა */
+	margin-top:110px;
+	margin-right:-100px;
+	margin-left:-500px;
+	/*ტექსტის გაზრდა */
+	font-size:20px;
+	background-color:black;
+	color:white;
+}
+
+#img1 img{
+	position:absolute;
+	margin-top:300px;
+	margin-right:250px;
+	margin-left:180;
+}
+/*badhat*/
+#text1 {
+	position:absolute;
+	margin-top:110px;
+	margin-left:none;
+	font-size:20px;
+	background-color:black;
+	color:white;
+
+}
+#img3 img{
+	position:absolute;
+	margin-top:400px;
+	margin-left:-1100px;
+}
+/*contact*/
+#info text5 {
+	position:absolute;
+	margin-top:200px;
+	margin-left:600px;
+	font-size:25px;
+	padding-bottom:20px;
+}
+/*about*/
+#img img {
+	margin-top:110px;
+	margin-left:-1100px;
+	width:1544;
+	
+}
+/*whitehack*/
+
+
+/*services*/
+
+#text4 {
+	position:absolute;
+	margin-top:110px;
+	margin-left:none;
+	font-size:20px;
+	background-color:black;
+	color:white;
+}
+#img0 img{
+	position:absolute;
+	margin-top:1px;
+	margin-left:1px;
+}
+
+/*service*/
+#img11 img{
+	margin-top:50px;
+}
+
+/*grayhat*/
+#img6 img{
+	position:absolute;
+	margin-top:400px;
+	margin-right:100px;
+}
+#img5 img{
+	position:absolute;
+	margin-top:400px;
+	margin-right:50px;
+	margin-left:-600px;
+}
+#img00 img{
+	position:absolute;
+	margin-top:360px;
+	margin-left:-1100px;
+}
+#img44 img{
+	position:absolute;
+	margin-top:360px;
+	margin-left:-400px;
+}
+
+#text13{
+	position:absolute;
+	margin-top:55px;
+	margin-left:240px;
+	background-color:black;
+	color:white;
+	font-size:20px;
+}
+/*Contact Us*/
+
+/*MyFirstWebSite*/
+#info2{
+	/*კონტაქტები ამოვიტანეთ ზემოდან ქვევით და შავი ფერი მივანიჭეთ*/
+	margin-top:-870px;
+	color:black;
+}
+#info2 p{
+	/*გავზარდეთ თვითონ ნაწერები*/
+	margin:5px 5px 5px 5px;
+}
+/*თვითონ შესაყვანი ტექსტის გრაფა გავზარდეთ სიგრძეში და სიმაღლეში*/
+#info2 input{
+	width:200px;
+	height:23px;
+}
+
+#info2 h2{
+	margin-left:50px;
+	color:black;
+}
+#info2 p{
+	margin-top:10px;
+	color:black
+}
+#info-content{
+	margin-left:20px;
+}
+
+/*slider*/
+/*ამ კოდის საშუალებით ჩვენ საიტზე დავამატებთ გვერდზე ჩამოსაწევ ასაწევის სქროლბარ*/
+::-webkit-scrollbar {
+	width:15px;
+}
+::-webkit-scrollbar-thumb{
+	border-radius:10px;
+	background:blue;
+	
+}
+/*hover ის დროს მაუს როცა გადავატარებთ სქროლბარს გაწითლდება */
+::-webkit-scrollbar-thumb:hover{
+	background:red;
+	
+}
+/*badhat*/
+#img116 img{
+	margin-top:300px;
+	margin-left:670px;
+}
+/*whitehat*/
+#img30 img{
+	margin-top:5px;
+	margin-left:830px;
+}
